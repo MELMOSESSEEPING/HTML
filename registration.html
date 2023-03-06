@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="class-for-registration">
+    
+        <div class="center-for-registration">
+            <h1>Registration Form</h1>
+    <form action="home.html">
+            
+        <div class="letter">
+            <div class="text">
+        <label for>Username:</label>
+        <input type=text placeholder="Enter Username Here" tabIndex="1"required>
+            </div>
+
+            <div class="text">
+        <label for>Password:</label>
+        <input type=password placeholder="Enter Password Here"  tabIndex="2" required>
+            </div>
+            <div class="text">  
+        <label for>Confirm Password:</label>
+        <input type=password placeholder="Confirm Password Here" tabIndex="3" required>
+            </div>
+            <div class="text">
+        <label for=>First Name:</label>
+        <input type=text placeholder="Enter First Name Here"  tabIndex="4"required>
+            </div>
+            <div class="text">
+        <label for=>Last Name:</label>
+        <input type=text placeholder="Enter Last Name Here" tabIndex="5">
+            </div>
+            
+            <div class="text">
+        <label for>Age:</label>
+        <input type=number placeholder="Enter Age Here" min="0" tabIndex="6"required>
+            </div>
+            <div class="text">
+        <label for>Email:</label>
+        <input type=text placeholder="Enter Email Here" required>
+            </div>
+            <div class="text">
+        <label for>Mobile No.:</label>
+        <input type=number placeholder="11 digits" tabIndex="8" required>
+            </div>
+        </div>
+            
+            <h2>Gender:</h2>
+        <div class="Gender-Registration">
+        <input type=radio name=Gender value="Male">
+        <label>Male</label>
+        <input type=radio name=Gender value="Female">
+        <label>Female</label>
+        <input type=radio name=Gender value="Prefer not to say">
+        <label>Prefer not to say</label>
+            </div>
+            <div class="Birthday-Photo">
+        <label for>Birthday:</label>
+        <input type=date max=2023-03-06 tabIndex="10" required>
+            
+            
+        <label for> Insert Photo</label>
+            <input type="file" >
+            </div>
+
+            <input type="submit" class="submit">
+          
+          </div>
+     </form>
+</body>
+
+</html>
